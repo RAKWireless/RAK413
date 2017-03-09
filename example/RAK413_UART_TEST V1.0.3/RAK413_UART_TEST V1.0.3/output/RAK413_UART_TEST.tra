@@ -1,0 +1,55 @@
+*** Creating Trace Output File '.\output\RAK413_UART_TEST.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\user_app_task.o"'
+### List of Objects: adding '".\output\bsp_driver.o"'
+### List of Objects: adding '".\output\bsp_init.o"'
+### List of Objects: adding '".\output\rak_wifi_driver.o"'
+### List of Objects: adding '".\output\core_cm0.o"'
+### List of Objects: adding '".\output\system_m051series.o"'
+### List of Objects: adding '".\output\retarget.o"'
+### List of Objects: adding '".\output\startup_m051series.o"'
+### List of Objects: adding '".\output\rak_config_init.o"'
+### List of Objects: adding '".\output\rak_connect_ap.o"'
+### List of Objects: adding '".\output\rak_creat_apadhoc.o"'
+### List of Objects: adding '".\output\rak_open_socket.o"'
+### List of Objects: adding '".\output\rak_query_con_status.o"'
+### List of Objects: adding '".\output\rak_query_dns.o"'
+### List of Objects: adding '".\output\rak_query_fwversion.o"'
+### List of Objects: adding '".\output\rak_query_ipconfig.o"'
+### List of Objects: adding '".\output\rak_query_rssi.o"'
+### List of Objects: adding '".\output\rak_scan_ap.o"'
+### List of Objects: adding '".\output\rak_send_data.o"'
+### List of Objects: adding '".\output\rak_set_channel.o"'
+### List of Objects: adding '".\output\rak_set_ipdhcp.o"'
+### List of Objects: adding '".\output\rak_set_ipstatic.o"'
+### List of Objects: adding '".\output\rak_set_psk.o"'
+### List of Objects: adding '".\output\rak_set_pwrmode.o"'
+### List of Objects: adding '".\output\rak_easyconfig.o"'
+### List of Objects: adding '".\output\rak_storeconfig.o"'
+### List of Objects: adding '".\output\rak_get_storeconfig.o"'
+### List of Objects: adding '".\output\rak_set_webconfig.o"'
+### List of Objects: adding '".\output\rak_start_webconfig.o"'
+### List of Objects: adding '".\output\rak_start_autoconnect.o"'
+### List of Objects: adding '".\output\rak_wake_up.o"'
+### List of Objects: adding '".\output\rak_wps.o"'
+### List of Objects: adding '".\output\rak_get_scanaps.o"'
+### List of Objects: adding '".\output\rak_close_socket.o"'
+### List of Objects: adding '".\output\rak_ltcp_status.o"'
+### List of Objects: adding '".\output\rak_http_get.o"'
+### List of Objects: adding '".\output\rak_http_post.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\output\user_app_task.o" ".\output\bsp_driver.o" ".\output\bsp_init.o" ".\output\rak_wifi_driver.o" ".\output\core_cm0.o" ".\output\system_m051series.o" ".\output\retarget.o" ".\output\startup_m051series.o" ".\output\rak_config_init.o" ".\output\rak_connect_ap.o" ".\output\rak_creat_apadhoc.o" ".\output\rak_open_socket.o" ".\output\rak_query_con_status.o" ".\output\rak_query_dns.o" ".\output\rak_query_fwversion.o" ".\output\rak_query_ipconfig.o" ".\output\rak_query_rssi.o" ".\output\rak_scan_ap.o" ".\output\rak_send_data.o" ".\output\rak_set_channel.o" ".\output\rak_set_ipdhcp.o" ".\output\rak_set_ipstatic.o" ".\output\rak_set_psk.o" ".\output\rak_set_pwrmode.o" ".\output\rak_easyconfig.o" ".\output\rak_storeconfig.o" ".\output\rak_get_storeconfig.o" ".\output\rak_set_webconfig.o" ".\output\rak_start_webconfig.o" ".\output\rak_start_autoconnect.o" ".\output\rak_wake_up.o" ".\output\rak_wps.o" ".\output\rak_get_scanaps.o" ".\output\rak_close_socket.o" ".\output\rak_ltcp_status.o" ".\output\rak_http_get.o" ".\output\rak_http_post.o" --strict --scatter ".\output\RAK410_UART_TEST.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\RAK413_UART_TEST.map" -o ".\output\RAK413_UART_TEST.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\RAK413_UART_TEST.axf'
+### ADS-LD Command File: '.\output\RAK413_UART_TEST.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\RAK413_UART_TEST.lnp', Handle=0x00000414
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\RAK413_UART_TEST.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
